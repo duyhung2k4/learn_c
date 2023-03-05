@@ -12,5 +12,5 @@ int main() {
   int phut = so_giay_thua / 60;
   int so_giay_thua2 = so_giay_thua % 60;
 
-  printf("%02d-%02d-%02d", gio, phut, so_giay_thua2);
+  printf("%02d:%02d:%02d", gio, phut, so_giay_thua2);
 }
